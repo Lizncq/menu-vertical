@@ -1,5 +1,7 @@
+/*ES IMPORTANTE EL ORDEN DE JERARQUÍA AL DAR LOS ESTILOS EN CSS*/
 body {
   font-family: sans-serif;
+  background: pink;
 }
 h1 {
   font-size: 60px;
@@ -39,11 +41,11 @@ a:active {
 ul li:first-child /*first-child es una pseudoclase*/ {
   background: #f9a91a;
 }
-ul li:first-child a {
-  color: #fff;
+ul li:first-child a {/*dandole color al contenido de la primera etiqueta 'a' contenida en la primera etiqueta 'li', que a su vez se encuentra contenida en la etiqueta 'ul'*/
+  color: #fff;/*color blanco*/
 }
 ul li:first-child a:hover {
-  color: #000;
+  color: #000;/*color negro*/
 }
 ul li:first-child a:active {
   color: #fff;
